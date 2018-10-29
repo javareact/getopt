@@ -1,0 +1,29 @@
+{
+  "name": "fuzzyy/getopt",
+  "description": "getopt",
+  "keywords": [
+    "getopt",
+    "fuzzyy"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "fuzzyy",
+      "email": "fuzzyy@foxmail.com",
+      "homepage": "http://www.nullval.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "GetOpt\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
